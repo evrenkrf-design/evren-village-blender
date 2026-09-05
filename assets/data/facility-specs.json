@@ -1,0 +1,98 @@
+{
+  "description": "Evren Village facility specifications and locations",
+  "facilities": {
+    "Petrol_Pump": {
+      "zone": "West Entry",
+      "type": "Commercial",
+      "approx_area_sqm": 500,
+      "vehicle_gates": 2,
+      "parking_spaces": 12,
+      "notes": "Entry point service"
+    },
+    "Hospital": {
+      "zone": "Haven_SW",
+      "type": "Civic",
+      "approx_area_sqm": 2500,
+      "vehicle_gates": 2,
+      "ambulance_bays": 2,
+      "parking_spaces": 25,
+      "notes": "30-50 bed facility with biomedical waste segregation"
+    },
+    "School": {
+      "zone": "Haven_SW",
+      "type": "Civic",
+      "approx_area_sqm": 3000,
+      "vehicle_gates": 1,
+      "parking_spaces": 15,
+      "notes": "Primary + Secondary K-12 education"
+    },
+    "Playground": {
+      "zone": "Haven_SW",
+      "type": "Recreation",
+      "approx_area_sqm": 1500,
+      "vehicle_gates": 2,
+      "equipment": ["Swings", "Slides", "Climbing", "Sports court"],
+      "notes": "Multi-age play areas"
+    },
+    "Market": {
+      "zone": "East",
+      "type": "Commercial",
+      "approx_area_sqm": 1200,
+      "vehicle_gates": 1,
+      "parking_spaces": 8,
+      "stalls": 20,
+      "notes": "Weekly market + retail shops"
+    },
+    "Chai_Tapri": {
+      "zone": "East",
+      "type": "Commercial",
+      "approx_area_sqm": 300,
+      "vehicle_gates": 1,
+      "seating_outdoor": 30,
+      "notes": "Tea shop and casual dining"
+    },
+    "Parking_P1": {
+      "zone": "West",
+      "type": "Parking",
+      "approx_area_sqm": 2000,
+      "vehicle_gates": 2,
+      "parking_spaces": 80,
+      "fire_turning_radius": 18,
+      "notes": "Main visitor/overflow parking"
+    },
+    "Stable": {
+      "zone": "Zenith_SE",
+      "type": "Rural",
+      "approx_area_sqm": 800,
+      "horse_stalls": 20,
+      "vehicle_gates": 1,
+      "notes": "Horse & animal care facility"
+    },
+    "Farmhouse": {
+      "zone": "Zenith_SE",
+      "type": "Rural",
+      "approx_area_sqm": 1000,
+      "vehicle_gates": 1,
+      "notes": "Community farm and learning center"
+    },
+    "Infrastructure_Block": {
+      "zone": "South",
+      "type": "Utility",
+      "approx_area_sqm": 600,
+      "vehicle_gates": 1,
+      "notes": "Water treatment, electrical substations, material recovery"
+    },
+    "Waste_Service_Area": {
+      "zone": "South",
+      "type": "Utility",
+      "approx_area_sqm": 400,
+      "vehicle_gates": 1,
+      "notes": "Compost center, biogas, segregation facility"
+    }
+  },
+  "totals": {
+    "total_facility_area_sqm": 14900,
+    "total_parking_spaces": 175,
+    "total_gates": 17
+  }
+}

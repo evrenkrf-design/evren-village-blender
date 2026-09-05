@@ -1,0 +1,60 @@
+{
+  "description": "Evren Village residential plot coordinates and specifications",
+  "scale": "2 px = 1 meter",
+  "total_plots": 50,
+  "zones": {
+    "Nova_NW": {
+      "small_plots": ["H01", "H02", "H03", "H04", "H05", "H06", "H07", "H08", "H09", "H10", "H11", "H12", "H13", "H14", "H15"],
+      "medium_plots": ["M01", "M02", "M03", "M04", "M05"]
+    },
+    "Aurelia_NE": {
+      "villa_plots": ["V01", "V02", "V03", "V04", "V05"],
+      "large_plots": ["L01", "L02", "L03", "L04", "L05", "L06", "L07"],
+      "medium_plots": ["M06", "M07"]
+    },
+    "Haven_SW": {
+      "small_plots": ["H16", "H17", "H18", "H19", "H20", "H21", "H22"],
+      "medium_plots": ["M08", "M09", "M10"],
+      "large_plots": ["L08"]
+    },
+    "Zenith_SE": {
+      "small_plots": ["H23", "H24", "H25"],
+      "large_plots": ["L09", "L10"]
+    }
+  },
+  "plot_templates": {
+    "H_small": {
+      "width": 8,
+      "depth": 5,
+      "area_sqm": 40,
+      "setback_front": 2,
+      "setback_side": 1,
+      "max_coverage": 0.6
+    },
+    "M_medium": {
+      "width": 10,
+      "depth": 7,
+      "area_sqm": 70,
+      "setback_front": 2.5,
+      "setback_side": 1.5,
+      "max_coverage": 0.55
+    },
+    "L_large": {
+      "width": 12,
+      "depth": 12,
+      "area_sqm": 144,
+      "setback_front": 3,
+      "setback_side": 2,
+      "max_coverage": 0.5
+    },
+    "V_villa": {
+      "width": 15,
+      "depth": 14,
+      "area_sqm": 210,
+      "setback_front": 4,
+      "setback_side": 3,
+      "max_coverage": 0.45
+    }
+  },
+  "note": "Exact coordinates to be populated after terrain generation and zone finalization"
+}
